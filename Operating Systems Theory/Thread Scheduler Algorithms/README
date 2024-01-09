@@ -7,4 +7,3 @@ To run the code:
 	gcc schedule_fcfs.c -o schedule_fcfs
 5. Run the code with this command (same example as line 4):
 	./schedule_fcfs
-6. Each scheduling algorithm will use 'schedule.txt' as the schedule of threads as they appear in the system.
