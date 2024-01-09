@@ -1,15 +1,9 @@
-Completing this project will require writing the following C files:
+To run the code:
 
-schedule_fcfs.c
-schedule_sjf.c
-schedule_rr.c
-schedule_priority.c
-schedule_priority_rr.c
-
-The supporting files invoke the appropriate scheduling algorithm. 
-
-For example, to build the FCFS scheduler, enter
-
-make fcfs
-
-which builds the fcfs executable file.
+1. On Windows, download MSYS2 MinGW 64 (https://www.mysys2.org/)
+2. Open a terminal vis MinGW
+3. Change your directory to the location you have placed this folder
+4. Compile the code with this command (example for First Come First Serve algorithm):
+	gcc schedule_fcfs.c -o schedule_fcfs
+5. Run the code with this command (same example as line 4):
+	./schedule_fcfs
